@@ -29,7 +29,7 @@ const currentPath=usePathname();
             key={link.href}
             className={classNames({
               'text-zinc-900': link.href===currentPath,
-              'text-zinc-400': link.href!==currentPath,
+              'text-zinc-300': link.href!==currentPath,
               'hover: text-zinc-800 transitiion-colors':true
             })}   
           
